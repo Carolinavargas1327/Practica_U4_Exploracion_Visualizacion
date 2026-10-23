@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from IPython.display import display
 
 sns.set_theme(style="whitegrid")
 # 1. CARGAR EL ARCHIVO
