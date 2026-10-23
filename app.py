@@ -6,8 +6,6 @@ import seaborn as sns
 sns.set_theme(style="whitegrid")
 # 1. CARGAR EL ARCHIVO
 print("Selecciona el archivo cat_parametros.csv")
-archivos = files.upload()
-cat_parametros = next(iter(archivos))
 
 # El archivo tiene una fila de titulo antes de los encabezados.
 df_original = pd.read_csv(
